@@ -21,11 +21,13 @@ Step 1 = Create a place to store our tasks
 Step 2 = Connect the database to Athena so we can query it
 Step 3 = Give Quicksight the permission to use our data
 Step 4 = Create Visualizations with QuickSight
+
 <br/>
 ***
 STEP 1: CREATE A PLACE TO STORE OUR TASKS
 ***
 <br/>
+
 Open up the AWS console -> Navigate to DynamoDB -> Select "Create table" <br/>
 Choose a table name, Mine is "MyTasksTable" <br/>
 Create a partition key to retrieve table items, Mine is "TaskID". You can leave it as a string. <br/>
